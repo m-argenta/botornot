@@ -27,6 +27,13 @@ A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el a
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
 		startOnLoad: true,
-		theme: 'default'
+		theme: 'default',
+			themeVariables: {
+				wrap: 'true',
+			},
+			"flowchart": {
+			curve: "linear",
+			markdownAutoWrap: "true",
+			}
 	});
 </script>
