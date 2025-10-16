@@ -1,4 +1,4 @@
-```mermaid
+<pre class="mermaid">
 flowchart LR
 C((Start)) --> 		C1(Secuencia de tres: se presentan ocho cartas con diferentes iconos. En ellas hay unos cubiertos, un zapato, un grifo, unas tijeras, unos cordones, un mando de televisión, una lámpara y unos calcetines.)
 					C1 --> 		C1s1{¿Primera carta escogida?}
@@ -16,4 +16,11 @@ C((Start)) --> 		C1(Secuencia de tres: se presentan ocho cartas con diferentes i
 											C1h3 --> End3((Fin))
 								C1s3 --> 	C1i3([No escoge en tercer lugar los cordones.])
 											C1i3 -->|Robot +1| C1r3((Reiniciar la secuencia))
-```
+</pre>
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
