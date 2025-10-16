@@ -21,6 +21,6 @@ B((Start)) --> 		B1(Situación 1: se presenta una imagen descriptiva de un escen
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
 		startOnLoad: true,
-		theme: 'dark'
+		theme: 'default'
 	});
 </script>
