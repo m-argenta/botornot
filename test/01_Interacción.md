@@ -1,4 +1,4 @@
-```mermaid
+<pre class="mermaid">
 flowchart LR
 A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el añadido invisible '+ 2')
 					A1 -->  	A1h([Responde: 4. Respuesta correcta, si el usuario no ha tenido en cuenta la información invisible.]) 
@@ -21,4 +21,4 @@ A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el a
 								A3b -->|Robot +2| End1
     				A3 --> 		A3i([Respuesta incorrecta, y además ha seleccionado una opción inaccesible desde la interfaz.]) 
 								A3i -->|Robot +2, Random +1| End1
-```
+</pre>
