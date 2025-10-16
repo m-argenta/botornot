@@ -1,5 +1,5 @@
-```mermaid
-flowchart LR
+<pre class="mermaid">
+	flowchart LR
 B((Start)) --> 		B1(Situación 1: se presenta una imagen descriptiva de un escenario común, y tres imágenes como opciones de respuesta, habiendo una que encaja mejor con el escenario planteado.)
     				B1 --> 		B1h([Escoge la imagen correcta.]) 
 								B1h --> B2(Situación 2: se presenta una imagen descriptiva de un problema común, y tres imágenes como opciones de respuesta, habiendo una que podría usarse como herramienta no-convencional para solucionar el problema planteado.)
@@ -15,4 +15,12 @@ B((Start)) --> 		B1(Situación 1: se presenta una imagen descriptiva de un escen
 								B3h --> End2((Fin))
             		B3 --> 		B3i([Escoge una imagen incorrecta.]) 
 								B3i-->|Robot +1| End2
-```
+</pre>
+
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
