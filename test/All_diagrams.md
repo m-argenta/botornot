@@ -2,7 +2,6 @@
 
 ### Interacción
 
-```markdown
 <pre class="mermaid">
 flowchart LR
 A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el añadido invisible '+ 2')
@@ -27,11 +26,10 @@ A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el a
     				A3 --> 		A3i([Respuesta incorrecta, y además ha seleccionado una opción inaccesible desde la interfaz.]) 
 								A3i -->|Robot +2, Random +1| End1
 </pre>
-```
+
 
 ### Contexto
 
-```markdown
 <pre class="mermaid">
 flowchart LR
 B((Start)) --> 		B1(Situación 1: se presenta una imagen descriptiva de un escenario común, y tres imágenes como opciones de respuesta, habiendo una que encaja mejor con el escenario planteado.)
@@ -50,11 +48,9 @@ B((Start)) --> 		B1(Situación 1: se presenta una imagen descriptiva de un escen
             		B3 --> 		B3i([Escoge una imagen incorrecta.]) 
 								B3i-->|Robot +1| End2
 </pre>
-```
 
 ### Narrativa
 
-```markdown
 <pre class="mermaid">
 flowchart LR
 C((Start)) --> 		C1(Secuencia de tres: se presentan ocho cartas con diferentes iconos. En ellas hay unos cubiertos, un zapato, un grifo, unas tijeras, unos cordones, un mando de televisión, una lámpara y unos calcetines.)
@@ -74,11 +70,9 @@ C((Start)) --> 		C1(Secuencia de tres: se presentan ocho cartas con diferentes i
 								C1s3 --> 	C1i3([No escoge en tercer lugar los cordones.])
 											C1i3 -->|Robot +1| C1r3((Reiniciar la secuencia))
 </pre>
-```
 
 ### Significado
 
-```markdown
 <pre class="mermaid">
 flowchart LR
 D((Start)) --> 		D1(Pregunta de prueba: ¿Equivalente a 1 metro?) 
@@ -110,11 +104,9 @@ D((Start)) --> 		D1(Pregunta de prueba: ¿Equivalente a 1 metro?)
 					D4 --> 		D4b([Respuesta correcta que no ha sido marcada: 494.21]) 
 								D4b -->|Robot +2| End4
 </pre>
-```
 
 ### Desobediencia
 
-```markdown
 <pre class="mermaid">
 flowchart LR
 E((Start)) --> 		E1(Descifra un texto largo y responde las preguntas relacionadas)
@@ -139,7 +131,6 @@ E((Start)) --> 		E1(Descifra un texto largo y responde las preguntas relacionada
 					E3 --> 		E3b([Respuesta correcta]) 
 								E3b -->|Robot +4| End5
 </pre>
-```
 
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
