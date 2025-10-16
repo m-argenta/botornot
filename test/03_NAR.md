@@ -21,6 +21,6 @@ C((Start)) --> 		C1(Secuencia de tres: se presentan ocho cartas con diferentes i
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
 		startOnLoad: true,
-		theme: 'dark'
+		theme: 'default'
 	});
 </script>
