@@ -31,9 +31,10 @@ A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el a
 			themeVariables: {
 				wrap: 'true',
 			},
-			"flowchart": {
+			flowchart: {
 			curve: "linear",
 			markdownAutoWrap: "true",
+			wrappingWidth: "400",
 			}
 	});
 </script>
