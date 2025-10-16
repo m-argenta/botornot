@@ -1,4 +1,4 @@
-```mermaid
+<pre class="mermaid">
 flowchart LR
 D((Start)) --> 		D1(Pregunta de prueba: ¿Equivalente a 1 metro?) 
 					D1 --> 		D1h([Respuesta correcta, marcada como preferida: 100 cm]) 
@@ -28,4 +28,12 @@ D((Start)) --> 		D1(Pregunta de prueba: ¿Equivalente a 1 metro?)
 								D4i -->|Random +1| End4
 					D4 --> 		D4b([Respuesta correcta que no ha sido marcada: 494.21]) 
 								D4b -->|Robot +2| End4
-```
+</pre>
+
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
