@@ -1,4 +1,3 @@
-```markdown
 <pre class="mermaid">
 flowchart LR
 A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el añadido invisible '+ 2')
@@ -23,7 +22,6 @@ A((Start)) -->		A1(Primera pregunta: se presenta el texto visible '2 + 2' y el a
     				A3 --> 		A3i([Respuesta incorrecta, y además ha seleccionado una opción inaccesible desde la interfaz.]) 
 								A3i -->|Robot +2, Random +1| End1
 </pre>
-```
 
 <script type="module">
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
