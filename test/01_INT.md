@@ -1,8 +1,12 @@
 <pre class="mermaid">
 flowchart LR
-A((Start)) -->		A1("`Primera pregunta: se presenta el texto visible '2 + 2' y el añadido invisible '+ 2'`")
-					A1 -->  	A1h(["`Responde: 4. Respuesta correcta, si el usuario 
-	no ha tenido en cuenta la información 
+A((Start)) -->		A1("`Primera pregunta: se presenta 
+	el texto visible '2 + 2' y 
+	el añadido invisible '+ 2'`")
+					A1 -->  	A1h(["`Responde: 4. 
+	Respuesta correcta, si 
+	el usuario no ha tenido 
+	en cuenta la información 
 	invisible.`"]) 
             					A1h --> A2("`Segunda pregunta: se presenta un 
 	juego de palabras formado por letras 
@@ -69,12 +73,10 @@ A((Start)) -->		A1("`Primera pregunta: se presenta el texto visible '2 + 2' y el
 		startOnLoad: true,
 		theme: 'default',
 			themeVariables: {
-				wrap: 'false',
+				wrap: 'true',
 			},
 			flowchart: {
-			curve: "linear",
-			markdownAutoWrap: "false",
-			wrappingWidth: "450",
+			markdownAutoWrap: "true"
 			}
 	});
 </script>
