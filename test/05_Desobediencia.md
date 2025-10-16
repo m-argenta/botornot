@@ -1,4 +1,4 @@
-```mermaid
+<pre class="mermaid">
 flowchart LR
 E((Start)) --> 		E1(Descifra un texto largo y responde las preguntas relacionadas)
 					E1 --> 		E1h([Saltar esta pregunta]) 
@@ -21,4 +21,12 @@ E((Start)) --> 		E1(Descifra un texto largo y responde las preguntas relacionada
 								E3i -->|Random +1| End5
 					E3 --> 		E3b([Respuesta correcta]) 
 								E3b -->|Robot +4| End5
-```
+</pre>
+
+<script type="module">
+	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+	mermaid.initialize({
+		startOnLoad: true,
+		theme: 'dark'
+	});
+</script>
