@@ -27,6 +27,6 @@ E((Start)) --> 		E1(Descifra un texto largo y responde las preguntas relacionada
 	import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
 	mermaid.initialize({
 		startOnLoad: true,
-		theme: 'dark'
+		theme: 'default'
 	});
 </script>
